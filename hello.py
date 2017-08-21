@@ -10,3 +10,7 @@ def hello_name(name):
 @app.route('/')
 def hello():
     return 'Hello World! How are you?'
+
+@app.route('/about')
+def about():
+    return 'The about page'
